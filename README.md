@@ -1,3 +1,3 @@
 # Practical-Statistics
 omg
-update from Rstudio
+update from Rstudio2
