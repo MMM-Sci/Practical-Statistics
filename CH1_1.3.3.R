@@ -1,4 +1,4 @@
-state <- read.csv(file = "C:/Users/MINGYEONG/Desktop/2020_KOR/ADP/R/Data_psds/state.csv")
+state <- read.csv(file = "../Data_psds/state.csv")
 mean(state[["Population"]])
 mean(state[["Population"]], trim = 0.1)
 median(state[["Population"]])

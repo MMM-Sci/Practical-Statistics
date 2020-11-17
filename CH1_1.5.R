@@ -1,3 +1,4 @@
+state <- read.csv(file = "../Data_psds/state.csv")
 quantile(state[["Murder.Rate"]], p=c(.05, .25, .5, .75, .95))
 boxplot(state[["Population"]]/1000000, ylab = "Population (millions)")
 breaks <-seq(from=min(state[["Population"]]),
